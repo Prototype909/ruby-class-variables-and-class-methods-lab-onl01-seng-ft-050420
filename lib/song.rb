@@ -15,6 +15,8 @@ class Song
    @@artist.push(artist)
  end
 
- def name(name)
+ def self.count
+   @@count
+ end
 
 end
